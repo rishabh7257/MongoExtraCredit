@@ -1,0 +1,38 @@
+
+<html>
+<head>
+    <title>GumballVersion5</title>
+</head>
+
+<body>
+<h1 align="center">Welcome to Rishabh Gumball Machine (Version 5)</h1>
+
+<!-- FORM SECTION -->
+<form name="gumballform" method="post" action="">
+    
+        <input type="hidden" name="state" id="state" value="<%=state%>" />
+		<input type="hidden" name="hash" id="hash" value="<%=hash%>" />
+		<input type="hidden" name="ts" id="ts" value="<%=ts%>" />
+		
+		
+		
+		<p>
+			<div align= "center">
+				<textarea name="message" cols="50" rows="15" readonly id="message">
+				<%=message%>
+				</textarea>
+			</div>
+		</p>
+
+    <p align="center"><img src="http://dnok91peocsw3.cloudfront.net/product/231547-610x610-1369155877-primary.png"  width="385" height="316"></p>
+
+    <p align="center">
+        <input type="submit" name="event" id="btnInsertQuarter" value="Insert Quarter">
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" name="event" id="btnTurnCrank" value="Turn Crank">
+    </p>
+</form>
+<!-- END FORM SECTION -->
+
+</body>
+</html>
